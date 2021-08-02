@@ -561,6 +561,12 @@
 .aplayer .aplayer-miniswitcher .aplayer-icon:hover path {
 	fill:#000
 }
+.aplayer.aplayer-narrow .aplayer-body {
+    left: -66px !important;
+}
+.aplayer-body:hover {
+    left: 0px !important
+}
 @-webkit-keyframes aplayer-roll {
 	0% {
 	left:0
